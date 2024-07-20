@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: ;
+    
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+
+}
+.p-container{
+    display: flex;
+    
+
+}
+.navlist{
+    list-style: none;
+    display: flex;
+    border: 4px solid black;
+    border-radius: 2rem;
+    gap: 9vw;
+    background: linear-gradient(-90deg ,blue,30%, red , orange );
+    height: 4rem;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    overflow: hidden;
+    width: 100vw;
+}
+
+.navlist li{
+    color: #fff;
+    overflow: hidden;
+}
+.f-container ,.s-container{
+    height: 150vh;
+    width: 100vw;
+    
+}
+.navlist li a{
+    color: #fff;
+    display: block;
+    text-decoration:  none;
+    list-style: none;
+}
+.navlist li:hover{
+    color: aqua;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    border: ;
+    border-radius: 2rem;
+}
+.f-container{
+    background: rgb(19, 19, 31);
+    width: 65%
+    border:  ;
+    
+}
+.s-container{
+    width: 35%;
+    background: linear-gradient(90deg ,rgb(19, 19, 31) ,70%, rgb(37, 37, 236));
+}
+.contain{
+    background: ;
+    position: absolute;
+    top: 9rem;
+    left: 6vw;
+    float: center;
+    width: 90%;
+    height: 50%;
+    min-width: 50px;
+    max-width: 100%;
+    background-color: ;
+    text-decoration: none;
+    padding-top: 5rem ;
+    margin-top: ; 
+    font-size: ;
+    color: #fff;
+    text-align: center;
+    justify-content: ;
+    
+    
+}
+
+.contain .p1{
+  font-size: 3.6vw;
+  color: #fff;
+  
+}
+.contain span{
+    color: aqua;
+    align-content: center;
+}
+.contain .iam{
+  
+
+  
+}
+.contain h1{
+    font-size: 7vw;
+    
+}
+.contain .p2{
+    font-size: 3.4vw;
+    
+}
+.btn{
+    position: relative;
+    padding: 1vh;
+    align-content: center;
+}
+.btn{
+    color: #fff;
+    width: 35vw;
+    margin: 2vh;
+    border: 2px solid white;
+    font-size: 3vw;
+    border-radius: 4vh;
+    background: transparent;
+    padding: 15px;
+   
+}
+.btn a{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  background-color: transparent;
+  
+
+
+}
+.btn a:hover{
+  color: black;
+  
+}
+.btn:hover{
+    color: black;
+    border: 2px solid transparent;
+    font-size: 3.4vw;
+    background: white;
+    font-weight: 900;
+}
+.sec_content{
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(90deg,  black , blue 200%);
+    border: solid blue;
+    color: white;
+    width: 100%;
+}
